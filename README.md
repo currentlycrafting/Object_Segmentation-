@@ -30,17 +30,15 @@ pip install ultralytics opencv-python numpy
 
 ## 🚀 Setup & Usage
 
-1.  **Save the code:**
-    Save the provided Python code as a `.py` file (e.g., `segmentation_app.py`).
+1.  Save the provided Python code as a `.py` file (e.g., `segmentation_app.py`).
 
-2.  **Place your input video:**
-    Ensure your input video file (default: `park.mp4`) is in the same directory as the Python script. If your video is elsewhere, update the `input_video_path` variable in the script to point to its location:
+2. Ensure your input video file (default: `park.mp4`) is in the same directory as the Python script. If your video is elsewhere, update the `input_video_path` variable in the script to point to its location:
 
     ```python
     input_video_path = "path/to/your/video.mp4"
     ```
 
-3.  **Run the script:**
+3.  Run the script:
     Execute the Python script from your terminal:
 
     ```bash
@@ -49,14 +47,8 @@ pip install ultralytics opencv-python numpy
 
     A new window will open, displaying the video feed with segmented objects.
 
-4.  **Quit the application:**
-    Press the `q` key to close the display window and exit the application.
-
 ---
-
-## ⚙️ Customizing the Model
+Customizing the Model
 
 You can experiment with different YOLOv8 segmentation models (e.g., `yolov8s-seg.pt`, `yolov8m-seg.pt` for higher accuracy but potentially lower speed) by changing the `model_name` variable in the script:
-
-```python
 model_name = 'yolov8m-seg.pt' # For a larger, more accurate model
