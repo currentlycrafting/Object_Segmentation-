@@ -46,9 +46,3 @@ pip install ultralytics opencv-python numpy
     ```
 
     A new window will open, displaying the video feed with segmented objects.
-
----
-Customizing the Model
-
-You can experiment with different YOLOv8 segmentation models (e.g., `yolov8s-seg.pt`, `yolov8m-seg.pt` for higher accuracy but potentially lower speed) by changing the `model_name` variable in the script:
-model_name = 'yolov8m-seg.pt' # For a larger, more accurate model
